@@ -1,3 +1,72 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url("../fonts/gotham-ultra.ttf") format("truetype"), url("../fonts/gotham-bold.ttf") format("truetype"), url("../fonts/gotham-black.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Anton';
+  src: url("../fonts/Anton-Regular.ttf") format("truetype"); }
+
+html, body {
+  position: relative;
+  height: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gotham Bold"; }
+
 .testing {
-  color: purple;
-  font-family: Arial; }
+  color: #111;
+  font-size: 64px;
+  line-height: 64px;
+  font-family: 'Gotham Bold';
+  height: 40px; }
+
+.navbar-light .navbar-toggler {
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.navbar .navbar-nav {
+  font-size: 56px;
+  text-align: center;
+  line-height: 72px;
+  height: 100vh; }
+
+.navbar li:first-child {
+  margin-top: 2.5em; }
+
+button:focus {
+  outline: none; }
+
+.swiper-container {
+  width: 100%;
+  height: 500px; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; }
+  .swiper-slide img {
+    width: 375px; }
+
+.swiper-pagination-progressbar {
+  background: none; }
+  .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background: #2aa12e; }
+
+.home-action {
+  float: right;
+  margin-right: 2em; }
