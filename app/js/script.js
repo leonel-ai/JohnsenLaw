@@ -1,3 +1,4 @@
+// swiper effect
 var swiper = new Swiper('.swiper-container', {
   speed: 700,
   spaceBetween: 140,

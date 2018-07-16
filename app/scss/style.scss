@@ -11,6 +11,8 @@
 }
 
 $title: 'Gotham Bold';
+$title2: 'Anton';
+$body-text: 'Gotham Black';
 
 html, body {
   position: relative;
@@ -21,14 +23,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: $title;
-}
-
-.testing {
-  color: #111;
-  font-size: 64px;
-  line-height: 64px;
-  font-family: 'Gotham Bold';
-  height: 40px;
 }
 
 .navbar-light .navbar-toggler {
@@ -55,7 +49,7 @@ button:focus {
 
 .swiper-container {
   width: 100%;
-  height: 500px;
+  height: 460px;
 }
 .swiper-slide {
   text-align: center;
@@ -87,6 +81,136 @@ button:focus {
 .home-action {
   float: right;
   margin-right: 2em;
+  margin-top: 1em;
+  button {
+    background-color: #3e51b5;
+    padding: 14px 26px 14px 26px;
+    border-color: #3e51b5;
+  }
+}
+
+// practice areas
+.practice {
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 50px;
+  .row {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .practice-header {
+    min-height: 444px;
+    margin-top: 3em;
+    margin-left: 0;
+    margin-right: 0;
+    .header-img {
+      position: absolute;
+      width: 75%;
+      padding: 0;
+      img {
+        opacity: .6;
+      }
+    }
+    .page-header {
+      top: 12em;
+      width: 100%;
+      .page-title {
+        font-family: $title2;
+        font-size: 4.5em;
+        line-height: 1em;
+        text-align: right;
+        margin-right: 20px;
+      }
+    }
+    .page-header.shrink {
+      border: 2px solid #111;
+      top: 6em;
+      /* animation magic */
+      transition: all 0.4s ease-in-out;
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      position: fixed;
+      .page-title {
+        font-size:  1.5em;
+      }
+    }
+  }
+  .practice-areas {
+    margin: 0 auto;
+    width: 85%;
+    background-color: white;
+    position: relative;
+    margin-bottom: 2em;
+
+    h3 {
+      text-align: right;
+    }
+    p {
+      text-align: justify;
+      margin-top: 1.5em;
+      font-family: Helvetica;
+    }
+    hr {
+      width: 35%;
+      background-color: #111;
+      float: right;
+    }
+  }
+  .about {
+    margin: 0 auto;
+    width: 85%;
+    background-color: white;
+    position: relative;
+    margin-bottom: 2em;
+
+    h3 {
+      text-align: right;
+    }
+    p {
+      text-align: justify;
+      margin-top: 1.5em;
+      font-family: Helvetica;
+    }
+    hr {
+      width: 35%;
+      background-color: #111;
+      float: right;
+    }
+    .case-img {
+      margin-top: 1em;
+      margin-bottom: 2em;
+    }
+  }
+  .page-footer {
+    background-color: #111;
+    color: #f2f2f2;
+    border-top: 5px solid red;
+    a {
+      text-decoration: none;
+      outline: none;
+      color: #b6b6b6;
+      font-family: Helvetica;
+      &:focus {
+        outline: none;
+        text-decoration: none;
+      }
+    }
+    hr {
+      background-color: #b6b6b6;
+    }
+    .social {
+      font-size: 14px;
+      color: #7a7a7a;
+      line-height: 20px;
+    }
+    .list-unstyled {
+      margin-bottom: 0;
+      text-align: center;
+      img {
+        width: 40px;
+      }
+    }
+  }
 }
 
 // Small devices (landscape phones, 576px and up)

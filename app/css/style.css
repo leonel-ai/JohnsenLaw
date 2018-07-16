@@ -15,13 +15,6 @@ body {
   padding: 0;
   font-family: "Gotham Bold"; }
 
-.testing {
-  color: #111;
-  font-size: 64px;
-  line-height: 64px;
-  font-family: 'Gotham Bold';
-  height: 40px; }
-
 .navbar-light .navbar-toggler {
   border: 0;
   -webkit-box-shadow: none;
@@ -41,7 +34,7 @@ button:focus {
 
 .swiper-container {
   width: 100%;
-  height: 500px; }
+  height: 460px; }
 
 .swiper-slide {
   text-align: center;
@@ -69,4 +62,105 @@ button:focus {
 
 .home-action {
   float: right;
-  margin-right: 2em; }
+  margin-right: 2em;
+  margin-top: 1em; }
+  .home-action button {
+    background-color: #3e51b5;
+    padding: 14px 26px 14px 26px;
+    border-color: #3e51b5; }
+
+.practice {
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 50px; }
+  .practice .row {
+    margin-left: 15px;
+    margin-right: 15px; }
+  .practice .practice-header {
+    min-height: 444px;
+    margin-top: 3em;
+    margin-left: 0;
+    margin-right: 0; }
+    .practice .practice-header .header-img {
+      position: absolute;
+      width: 75%;
+      padding: 0; }
+      .practice .practice-header .header-img img {
+        opacity: .6; }
+    .practice .practice-header .page-header {
+      top: 12em;
+      width: 100%; }
+      .practice .practice-header .page-header .page-title {
+        font-family: "Anton";
+        font-size: 4.5em;
+        line-height: 1em;
+        text-align: right;
+        margin-right: 20px; }
+    .practice .practice-header .page-header.shrink {
+      border: 2px solid #111;
+      top: 6em;
+      /* animation magic */
+      transition: all 0.4s ease-in-out;
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      position: fixed; }
+      .practice .practice-header .page-header.shrink .page-title {
+        font-size: 1.5em; }
+  .practice .practice-areas {
+    margin: 0 auto;
+    width: 85%;
+    background-color: white;
+    position: relative;
+    margin-bottom: 2em; }
+    .practice .practice-areas h3 {
+      text-align: right; }
+    .practice .practice-areas p {
+      text-align: justify;
+      margin-top: 1.5em;
+      font-family: Helvetica; }
+    .practice .practice-areas hr {
+      width: 35%;
+      background-color: #111;
+      float: right; }
+  .practice .about {
+    margin: 0 auto;
+    width: 85%;
+    background-color: white;
+    position: relative;
+    margin-bottom: 2em; }
+    .practice .about h3 {
+      text-align: right; }
+    .practice .about p {
+      text-align: justify;
+      margin-top: 1.5em;
+      font-family: Helvetica; }
+    .practice .about hr {
+      width: 35%;
+      background-color: #111;
+      float: right; }
+    .practice .about .case-img {
+      margin-top: 1em;
+      margin-bottom: 2em; }
+  .practice .page-footer {
+    background-color: #111;
+    color: #f2f2f2;
+    border-top: 5px solid red; }
+    .practice .page-footer a {
+      text-decoration: none;
+      outline: none;
+      color: #b6b6b6;
+      font-family: Helvetica; }
+      .practice .page-footer a:focus {
+        outline: none;
+        text-decoration: none; }
+    .practice .page-footer hr {
+      background-color: #b6b6b6; }
+    .practice .page-footer .social {
+      font-size: 14px;
+      color: #7a7a7a;
+      line-height: 20px; }
+    .practice .page-footer .list-unstyled {
+      margin-bottom: 0;
+      text-align: center; }
+      .practice .page-footer .list-unstyled img {
+        width: 40px; }
